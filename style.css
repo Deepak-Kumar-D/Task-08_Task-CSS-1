@@ -1,0 +1,94 @@
+html{
+    font-family: Arial,Verdana,Tahoma;;
+    margin: 0%;
+    padding: 0%;
+    background: rgb(20, 20, 20);
+}
+
+body{
+    margin: 5px 250px 5px 250px;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+}
+
+.navtitle{
+    margin-left: 0;
+    padding: 0px;
+    background: #F7BA24;
+    color: #fff;
+    height: 50px;
+    font-size: 22px;
+}
+
+.navtitle span{
+    padding-left: 20px;
+}
+
+.col1{
+    background: #EEEEEE;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.nav-item{
+    border-bottom: 1px dotted rgb(172, 171, 171);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.home{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.home li{
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.home li::before{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    font-family: FontAwesome;
+    content: "\f146";
+    color: rgb(170, 169, 169);
+    font-size: 10px;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.nav .nav-item{
+    position: relative;
+    padding-left: 13px;
+}
+
+.nav .nav-item:before{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-family: FontAwesome;
+    content: "\f0fe";
+    color: rgb(92, 92, 92);
+    font-size: 10px;
+}
+
+a{
+    color: black;
+}
+
+.nav .nav-link:hover{
+    color: black;
+}
+
+.nav .nav-item:hover{
+    background-color: rgb(209,207,207, 0.8);
+}
